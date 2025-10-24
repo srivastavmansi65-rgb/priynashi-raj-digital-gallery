@@ -1,0 +1,81 @@
+o<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Shower Photo Gallery</title>
+    <link rel="stylesheet" href="baby_shower_styles.css">
+</head>
+<body>
+    <audio id="background-audio" src="Pariyon%20Jesi%20Pyaari%20Beti%20%20Olivia%20%20Pre%20Birthday%20%20Keyaan%20%20RPC.mp3" preload="auto" loop></audio>
+    <header>
+        <h1>Baby Shower Memories</h1>
+        <marquee behavior="scroll" direction="left" scrollamount="3">Celebrating the arrival of little Pihu with joy and love! 🎈</marquee>
+        <p>Celebrating the arrival of little Pihu with joy and love!</p>
+        <p class="cute-msg">Lil Pihu, I love you! 💕 My hunny bunny! 🐰 My cutiebutiie! 🥰</p>
+        <p class="dob-msg">Born on 3 April 2021 - A little angel came on earth this day, named Pihu! 👼✨</p>
+        <div class="teddy-bear" onclick="playTeddyAudio()">🧸</div>
+        <button class="play-audio-btn" onclick="playAudio()">💖</button>
+        <div class="moon">🌙</div>
+        <div class="cute-baby" onclick="showBabyMessage()">👶</div>
+    </header>
+    <section class="gallery">
+        <h2>Precious Moments</h2>
+        <div class="slideshow-container">
+            <div class="slideshow">
+                <div class="slide active">
+                    <img src="PIU1.jpeg" alt="Baby Photo 1">
+                    <marquee behavior="scroll" direction="left" scrollamount="3">🎈 Precious Moment 1 🎈</marquee>
+                    <div class="decoration">🎈</div>
+                </div>
+                <div class="slide">p
+                    <img src="PIU2.jpeg" alt="Baby Photo 2">
+                    <marquee behavior="scroll" direction="left" scrollamount="3">🍼 Precious Moment 2 🍼</marquee>
+                    <div class="decoration">🍼</div>
+                </div>
+                <div class="slide">
+                    <img src="PIU3.jpeg" alt="Baby Photo 3">
+                    <marquee behavior="scroll" direction="left" scrollamount="3">👶 Precious Moment 3 👶</marquee>
+                    <div class="decoration">👶</div>
+                </div>
+                <div class="slide">
+                    <img src="PIU4.jpeg" alt="Baby Photo 4">
+                    <marquee behavior="scroll" direction="left" scrollamount="3">🎁 Precious Moment 4 🎁</marquee>
+                    <div class="decoration">🎁</div>
+                </div>
+                <div class="slide">
+                    <img src="PIU5.jpeg" alt="Baby Photo 5">
+                    <marquee behavior="scroll" direction="left" scrollamount="3">🦋 Precious Moment 5 🦋</marquee>
+                    <div class="decoration">🦋</div>
+                </div>
+                <div class="slide">
+                    <img src="PIU6.jpeg" alt="Baby Photo 6">
+                    <marquee behavior="scroll" direction="left" scrollamount="3">🌸 Precious Moment 6 🌸</marquee>
+                    <div class="decoration">🌸</div>
+                </div>
+                <div class="slide">
+                    <img src="PIU7.jpeg" alt="Baby Photo 7">
+                    <marquee behavior="scroll" direction="left" scrollamount="3">🧸 Precious Moment 7 🧸</marquee>
+                    <div class="decoration">🧸</div>
+                </div>
+                <div class="slide">
+                    <img src="PIU8.jpeg" alt="Baby Photo 8">
+                    <marquee behavior="scroll" direction="left" scrollamount="3">💕 Precious Moment 8 💕</marquee>
+                    <div class="decoration">💕</div>
+                </div>
+                <div class="slide">
+                    <img src="PIU9.jpeg" alt="Baby Photo 9">
+                    <marquee behavior="scroll" direction="left" scrollamount="3">🎉 Precious Moment 9 🎉</marquee>
+                    <div class="decoration">🎉</div>
+                </div>
+            </div>
+            <button class="prev" onclick="changeSlide(-1)">❮</button>
+            <button class="next" onclick="changeSlide(1)">❯</button>
+        </div>
+    </section>
+    <footer>
+        <p>Made with love for lil one! 🎈👶</p>
+    </footer>
+    <script src="baby_shower_script.js"></script>
+</body>
+</html>
